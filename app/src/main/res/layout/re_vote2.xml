@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    tools:context=".VotingPages.ReVote2">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="615dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="رئيس اتحاد الطلبة"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/Raees_At7ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginRight="12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب رئيس اتحاد الطلبة"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/Naeeb_Raees_At7ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة الاسر"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elaser_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة الاسر"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/Naeeb_lgnt_elaser"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة الجواله والخدمة العامه"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elgoal_and_khdma_3ama_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة الجواله والخدمة العامه"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp" />
+
+                <Spinner
+                    android:id="@+id/Naeeb_lgnt_elgoala_and_khdma_3ama_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة النشاط"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elnshat"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center"
+                    android:text="نائب امين لجنة النشاط"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/naaeb_lgnt_elnshat_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة النشاط الاجتماعي والرحلات"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elnshat_elagtma3e_and_r7lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة النشاط الاجتماعي والرحلات"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/Naeeb_lgnt_elnshat_elagtma3e_and_r7lat_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة النشاط الثقافي والاعلامي"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elnshat_elsakafa_and_e3lame_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة النشاط الثقافي والاعلامي"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/naeep_lgnt_elnshat_elsakafa_and_e3lame_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة النشاط الرياضي"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elnshat_elreade"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة النشاط الرياضي"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/naeeb_lgnt_elnshat_elreade"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="امين لجنة النشاط الفني"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/lgnt_elnshat_elfnee"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_background"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نائب امين لجنة النشاط الفني"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#08A9DA"
+                    android:textSize="22dp"/>
+
+                <Spinner
+                    android:id="@+id/naeeb_lgnt_elnshat_elfnee"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/edit_background" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#454545"
+                    android:layout_marginTop="32sp"
+                    android:layout_marginHorizontal="8sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/scrollView">
+
+        <Button
+            android:id="@+id/btnVote"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="تصويت"
+            android:textSize="22dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/sign_in_btn_background"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/AB_vote"
+        android:title="الذهاب للتصويت"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_nomination"
+        android:title="الذهاب للترشح"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_election_reElection"
+        android:title="الذهاب لاعادة التصويت"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_signOut"
+        android:title="تسجيل الخروج"
+        app:showAsAction="never"/>
+
+
+</menu>

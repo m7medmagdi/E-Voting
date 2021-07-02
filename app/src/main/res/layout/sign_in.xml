@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:background="#fff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/arapey_italic"-->
+<!--            android:text="تسجيل الدخول"-->
+<!--            android:textColor="#08A9DA"-->
+<!--            android:textSize="32sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="100dp"/>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_logo"
+            android:layout_marginTop="44sp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="12dp"
+            android:drawableRight="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:ems="10"
+            android:gravity="right|center"
+            android:textColorHint="#08A9DA"
+            android:textColor="#08A9DA"
+            android:hint="الايميل"
+            android:background="@drawable/edit_background2"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="60sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="12dp"
+            android:drawableRight="@drawable/ic_password"
+            android:drawablePadding="10dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:ems="10"
+            android:layoutDirection="rtl"
+            android:textColorHint="#08A9DA"
+            android:textColor="#08A9DA"
+            android:hint="كلمة المرور"
+            android:gravity="right|center"
+            android:background="@drawable/edit_background2"
+            android:inputType="textPassword"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/sign_in_btn_background"
+            android:text="تسجيل الدخول"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+    </LinearLayout>
+</ScrollView>

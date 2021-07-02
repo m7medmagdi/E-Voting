@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="12dp"
+    tools:context=".AdminPages.ShowNominationForAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="رئيس اتحاد الطلبة"
+        android:textColor="#FFF"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_background"
+        android:onClick="RaeesAt7ad"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب رئيس اتحاد الطلبة"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebRaeesAt7ad"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة الاسر"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenLgntAsur"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة الاسر"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenLgntAsur"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة الجواله والخدمة العامه"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenElgoala"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة الجواله والخدمة العامه"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenElgoala"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة النشاط الاجتماعي والرحلات"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmenElr7lat"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة النشاط الاجتماعي والرحلات"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmenElr7lat"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة النشاط الثقافي والاعلامي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenElthlafee"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة النشاط الثقافي والاعلامي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenElthlafee"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة النشاط الرياضي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenAlriadee"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة النشاط الرياضي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenAlriadee"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة النشاط العلمي والتكنولوجي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenEltknologia"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة النشاط العلمي والتكنولوجي"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenEltknologia"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="امين لجنة النشاط الفني"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="AmeenElfnie"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:text="نائب امين لجنة النشاط الفني"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/text_background"
+            android:onClick="NaeebAmeenElfnie"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

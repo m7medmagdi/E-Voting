@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".VotingPages.Rayiys_Aitihad_Altalaba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/text_background"
+        android:layout_marginHorizontal="24dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الاسم"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFF" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

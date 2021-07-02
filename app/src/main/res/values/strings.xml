@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">E-Voting</string>
+
+    <string-array name="nominationPositions">
+        <item>اضغط لاختيار المنصب</item>
+        <item>رئيس اتحاد الطلبة</item>
+        <item>نائب رئيس اتحاد الطلبة</item>
+        <item>امين اللجنة الثقافية</item>
+        <item>مساعد امين اللجنة الثقافية</item>
+        <item>باقي اللجن</item>
+        <item>باقي اللجن</item>
+        <item>باقي اللجن</item>
+        <item>باقي اللجن</item>
+
+    </string-array>
+</resources>

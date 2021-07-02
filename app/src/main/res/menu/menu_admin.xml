@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/AB_active_nomination"
+        android:title="تفعيل مرحلة الترشح"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_active_vote"
+        android:title="تفعيل مرحلة التصويت"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/AB_active_equals_votes"
+        android:title="تفعيل مرحلة التعادل"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_show_talabat_altarashuh"
+        android:title="الاطلاع علي طلبات الترشح"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/AB_signOut"
+        android:title="تسجيل الخروج"
+        app:showAsAction="never"/>
+</menu>

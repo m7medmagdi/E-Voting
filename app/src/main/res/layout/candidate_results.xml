@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="32sp"
+        android:layout_marginHorizontal="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#08A9DA"
+        android:layout_marginHorizontal="12sp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50sp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:textColor="#FFF"
+            android:text="عدد الاصوات"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50sp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textColor="#FFF"
+            android:text="الاسم"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50sp"
+            android:background="#000" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginHorizontal="12sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_candidateResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12sp"/>
+</LinearLayout>
+</ScrollView>

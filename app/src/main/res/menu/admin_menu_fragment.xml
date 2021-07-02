@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_nomination"
+        android:title="الاطلاع علي طلبات الترشح"/>
+
+    <item
+        android:id="@+id/nav_voting"
+        android:title="الاطلاع علي نتائج الانتخابات"/>
+
+
+</menu>
